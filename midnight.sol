@@ -74,16 +74,16 @@ contract ERC20Detailed is IERC20 {
   }
 }
 
-contract Midnight is ERC20Detailed {
+contract KUACI is ERC20Detailed {
 
   using SafeMath for uint256;
   mapping (address => uint256) private _balances;
   mapping (address => mapping (address => uint256)) private _allowed;
 
-  string constant tokenName = "Midnight";
-  string constant tokenSymbol = "NIGHT";
-  uint8  constant tokenDecimals = 8;
-  uint256 _totalSupply = 200000000000000000;
+  string constant tokenName = "KUACI";
+  string constant tokenSymbol = "KUACI";
+  uint8  constant tokenDecimals = 18;
+  uint256 _totalSupply = 100000000000000000000000000000000;
   uint256 public basePercent = 100;
 
   constructor() public payable ERC20Detailed(tokenName, tokenSymbol, tokenDecimals) {
