@@ -1,9 +1,9 @@
 /**
- *Submitted for verification at Etherscan.io on 2023-01-23
+ ONLY MEME FOR FUN 🤡 NO UTILITY 
 */
 
 /**
-http://t.me/Optimus_AI
+https://twitter.com/abisRugPull
 */
 
 // SPDX-License-Identifier: Unlicensed
