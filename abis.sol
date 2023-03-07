@@ -186,8 +186,8 @@ contract ABIS is Context, IERC20, Ownable {
 
     mapping(address => bool) public bots; mapping (address => uint256) public _buyMap;
     mapping (address => bool) public preTrader;
-    address payable private _developmentAddress = payable(0x514FB034434DF2310170E121e0d8F473E930ee5b);
-    address payable private _marketingAddress = payable(0x514FB034434DF2310170E121e0d8F473E930ee5b);
+    address payable private _developmentAddress = payable(0x96187F06530DCD0737E5946e9F79033478177777);
+    address payable private _marketingAddress = payable(0x96187F06530DCD0737E5946e9F79033478177777);
 
     IUniswapV2Router02 public uniswapV2Router;
     address public uniswapV2Pair;
@@ -196,9 +196,9 @@ contract ABIS is Context, IERC20, Ownable {
     bool private inSwap = false;
     bool private swapEnabled = true;
 
-    uint256 public _maxTxAmount = 1000000 * 10**8;
-    uint256 public _maxWalletSize = 1000000 * 10**8;
-    uint256 public _swapTokensAtAmount = 50000 * 10**8;
+    uint256 public _maxTxAmount = 10000000 * 10**8;
+    uint256 public _maxWalletSize = 10000000 * 10**8;
+    uint256 public _swapTokensAtAmount = 500000 * 10**8;
 
     event MaxTxAmountUpdated(uint256 _maxTxAmount);
     modifier lockTheSwap {
