@@ -74,14 +74,14 @@ contract ERC20Detailed is IERC20 {
   }
 }
 
-contract KUACI is ERC20Detailed {
+contract tABIS is ERC20Detailed {
 
   using SafeMath for uint256;
   mapping (address => uint256) private _balances;
   mapping (address => mapping (address => uint256)) private _allowed;
 
-  string constant tokenName = "KUACI";
-  string constant tokenSymbol = "KUACI";
+  string constant tokenName = "TEST ABIS";
+  string constant tokenSymbol = "tABIS";
   uint8  constant tokenDecimals = 18;
   uint256 _totalSupply = 100000000000000000000000000000000;
   uint256 public basePercent = 100;
