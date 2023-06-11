@@ -83,7 +83,7 @@ contract tABIS is ERC20Detailed {
   string constant tokenName = "Saika Kawakita";
   string constant tokenSymbol = "SAIKA";
   uint8  constant tokenDecimals = 18;
-  uint256 _totalSupply = 100000000000000000000000000000000;
+  uint256 _totalSupply = 24041999000000000000000000;
   uint256 public basePercent = 100;
 
   constructor() public payable ERC20Detailed(tokenName, tokenSymbol, tokenDecimals) {
