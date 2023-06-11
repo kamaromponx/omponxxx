@@ -1,6 +1,5 @@
-/**
- *Submitted for verification at Etherscan.io on 2019-08-13
-*/
+
+
 
 pragma solidity ^0.5.0;
 
@@ -74,7 +73,7 @@ contract ERC20Detailed is IERC20 {
   }
 }
 
-contract tABIS is ERC20Detailed {
+contract SAIKA is ERC20Detailed {
 
   using SafeMath for uint256;
   mapping (address => uint256) private _balances;
