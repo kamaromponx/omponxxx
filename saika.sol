@@ -80,8 +80,8 @@ contract tABIS is ERC20Detailed {
   mapping (address => uint256) private _balances;
   mapping (address => mapping (address => uint256)) private _allowed;
 
-  string constant tokenName = "TEST ABIS";
-  string constant tokenSymbol = "tABIS";
+  string constant tokenName = "Saika Kawakita";
+  string constant tokenSymbol = "SAIKA";
   uint8  constant tokenDecimals = 18;
   uint256 _totalSupply = 100000000000000000000000000000000;
   uint256 public basePercent = 100;
