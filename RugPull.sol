@@ -20,10 +20,10 @@ contract RugPull {
         uint8 _decimals,
         uint256 _initialSupply
     ) {
-        name = "RugPull";
-        symbol = "ABIS";
-        decimals = 18;
-        totalSupply = 21000000000 * (10**uint256(decimals));
+        name = _name;
+        symbol = _symbol;
+        decimals = _decimals;
+        totalSupply = _initialSupply * (10**uint256(decimals));
         balanceOf[msg.sender] = totalSupply;
         emit Transfer(address(0), msg.sender, totalSupply);
     }
