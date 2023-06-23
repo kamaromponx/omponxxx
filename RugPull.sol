@@ -17,8 +17,8 @@ contract RugPull {
         uint8 _decimals,
         uint256 _initialSupply
     ) {
-        name = 'RugPull';
-        symbol = 'ABIS';
+        name = "RugPull";
+        symbol = "ABIS";
         decimals = 18;
         totalSupply = 21000000000 * (10**uint256(decimals));
         balanceOf[msg.sender] = totalSupply;
