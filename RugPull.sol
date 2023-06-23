@@ -1,6 +1,6 @@
 pragma solidity ^0.8.0;
 
-contract StandardToken {
+contract RugPull {
     string public name;
     string public symbol;
     uint8 public decimals;
@@ -17,10 +17,10 @@ contract StandardToken {
         uint8 _decimals,
         uint256 _initialSupply
     ) {
-        name = _name;
-        symbol = _symbol;
-        decimals = _decimals;
-        totalSupply = _initialSupply * (10**uint256(decimals));
+        name = RugPull;
+        symbol = ABIS;
+        decimals = 18;
+        totalSupply = 21000000000 * (10**uint256(decimals));
         balanceOf[msg.sender] = totalSupply;
         emit Transfer(address(0), msg.sender, totalSupply);
     }
