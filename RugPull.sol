@@ -1,4 +1,5 @@
 // Discord RugPull ABIS: https://discord.gg/EvSZURMZtT
+// 🤡 only meme for fun 🤡
 
 pragma solidity ^0.8.0;
 
