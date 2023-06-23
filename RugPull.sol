@@ -1,3 +1,5 @@
+// Discord RugPull ABIS: https://discord.gg/EvSZURMZtT
+
 pragma solidity ^0.8.0;
 
 contract RugPull {
